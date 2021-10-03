@@ -1,0 +1,20 @@
+.rectangle {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: black;
+    border: black;
+  }
+  
+
+  .buzzedInRectangle{
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    border: 10px solid yellow;
+    
+  }
+
+  
