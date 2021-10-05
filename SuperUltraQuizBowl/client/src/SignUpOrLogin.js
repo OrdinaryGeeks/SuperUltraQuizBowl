@@ -1,8 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { HubConnectionBuilder } from '@microsoft/signalr';
-import parse from "html-react-parser";
-import {PlayerContext} from './PlayerContext';
+
 import Chat from './Chat';
 
 class SignUpOrLogin extends React.Component {
