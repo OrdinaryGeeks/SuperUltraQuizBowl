@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Message from './Message';
+import SignUpOrLogin from './SignUpOrLogin';
 
 const ChatWindow = (props) => {
     const chat = props.chat
@@ -11,6 +12,7 @@ const ChatWindow = (props) => {
 
     return(
         <div>
+            
             {chat}
         </div>
     )

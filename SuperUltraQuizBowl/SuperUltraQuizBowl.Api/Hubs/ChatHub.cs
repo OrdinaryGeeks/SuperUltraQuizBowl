@@ -11,5 +11,9 @@ namespace SuperUltraQuizBowl.Api.Hubs
         {
             await Clients.All.ReceiveMessage(message);
         }
+        public async Task NewPlayer(string player)
+        {
+            await Clients.All.AddNewPlayer(player);
+        }
     }
 }
